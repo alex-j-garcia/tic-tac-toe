@@ -1,0 +1,21 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+table {
+  margin: 2rem auto;
+  font-size: 5rem;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  padding: 1rem;
+}
