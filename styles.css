@@ -9,13 +9,26 @@ html {
   box-sizing: inherit;
 }
 
+.game {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 table {
   margin: 2rem auto;
   font-size: 5rem;
   border-collapse: collapse;
 }
 
+.table--inactive {
+  opacity: 0.1;
+}
+
 td {
+  height: 100px;
+  width: 100px;
   border: 1px solid black;
-  padding: 1rem;
+  text-align: center;
 }
